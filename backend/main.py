@@ -6,7 +6,9 @@ import os
 
 import pandas as pd
 
-from backend.analytics_engine import analyze_dataset
+#from backend.analytics_engine import analyze_dataset
+from analytics_engine import analyze_dataset
+
 
 from backend.rag_engine import (
 
