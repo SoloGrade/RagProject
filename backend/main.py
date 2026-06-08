@@ -10,7 +10,9 @@ import pandas as pd
 from analytics_engine import analyze_dataset
 
 
-from backend.rag_engine import (
+#from backend.rag_engine import (
+from rag_engine import (
+
 
     create_vector_store,
 
