@@ -9,6 +9,8 @@ import pandas as pd
 #from backend.analytics_engine import analyze_dataset
 from analytics_engine import analyze_dataset
 
+#frontend url : https://rag-project-gold.vercel.app/
+#backend url: https://rag-backend-c9ea.onrender.com/
 
 #from backend.rag_engine import (
 from rag_engine import (
@@ -40,6 +42,7 @@ from rag_engine import (
 # ---------------------------------------------------
 
 app = FastAPI()
+
 app.add_middleware(
 
     CORSMiddleware,
